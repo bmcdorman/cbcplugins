@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cbc" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="CBC" prefix_auto="1" extension_auto="1" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option host_application="codeblocks" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="`pkg-config --cflags codeblocks`" />
+					<Add option="`wx-config --cflags`" />
+					<Add option="-DwxUSE_GUI=1" />
+					<Add option="-DwxUSE_IMAGE=1" />
+				</Compiler>
+				<Linker>
+					<Add option="`pkg-config --libs codeblocks`" />
+					<Add option="`wx-config --libs`" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="zip -j9 CBC.zip manifest.xml" />
+					<Add after="zip -j9 CBC.cbplugin CBC.so CBC.zip" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="CBC.cpp" />
+		<Unit filename="CBC.h" />
+		<Unit filename="manifest.xml" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

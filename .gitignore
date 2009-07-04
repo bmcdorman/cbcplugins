@@ -1,1 +1,5 @@
 .directory
+*.o
+console/cbc
+code::blocks/*.zip
+code::blocks/*.cbplugin
