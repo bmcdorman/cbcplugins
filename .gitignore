@@ -3,3 +3,6 @@
 console/cbc
 code::blocks/*.zip
 code::blocks/*.cbplugin
+moce_*.cpp
+*.pro.user
+Makefile
