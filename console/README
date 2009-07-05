@@ -1,0 +1,33 @@
+================================
+== CBC USB Console Downloader ==
+================================
+
+===============
+Pre-Requisites:
+===============
+
+1. Latest Qt
+
+===============
+How to Install:
+===============
+
+*nix users:
+1. mkdir ~/bin
+2. cp cbc ~/bin
+3. re-login
+
+Windows users:
+1. Copy to somewhere in the PATH (system32, etc)
+
+===========
+How to Use:
+===========
+
+1. cbc [c_file]
+
+=============================
+Information And More Plugins:
+=============================
+
+http://github.com/catron/cbcplugins/

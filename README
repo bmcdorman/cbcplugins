@@ -1,0 +1,28 @@
+=================
+== CBC Plugins ==
+=================
+
+===============
+Pre-Requisites:
+===============
+
+1. Latest Qt
+
+===============
+How to Install:
+===============
+
+1. Build the console application as described in the README
+2. Install the console application
+
+===========
+How to Use:
+===========
+
+1. Follow the specific readme for your IDE
+
+=============================
+Information And More Plugins:
+=============================
+
+http://github.com/catron/cbcplugins/
